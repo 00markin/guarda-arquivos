@@ -47,7 +47,7 @@ Na pasta /client , use o seguinte comando:
 ## Documentação
 Existem diversos comentários (em inglês) no projeto para facil entendimento das funções, por conta disso, não utilize essa versão para produção.
 
-##ToDo list
+## ToDo list
 - [ ] Adicionar a funcionalidade de upload de arquivo
 - [ ] Adicionar Drag and Drop para upload de arquivo
 - [ ] Adicionar a funcionalidade de download de arquivo
