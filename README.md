@@ -23,7 +23,7 @@ Na pasta /client , use o seguinte comando para rodar o React.js:
 ```
 
 npm install vai carregar os /node_modules.
-e o npm run vai rodar os ambientes (npm run server para o backend e npm run start para o frontend).
+
 
 Você também precisa criar uma variavel de ambiente (Arquivo .env) com as seguintes informações:
 ```
@@ -31,3 +31,24 @@ Você também precisa criar uma variavel de ambiente (Arquivo .env) com as segui
   mongoURI
 ```
 existe uma .env.example que você pode se basear para criar a sua própria.
+
+## Rodando em ambiente local
+Na pasta raiz do projeto, use o seguinte comando:
+```
+  npm run server
+```
+
+Na pasta /client , use o seguinte comando:
+```
+  npm run start
+```
+```npm run``` vai rodar os ambientes (npm run server para o backend e npm run start para o frontend).
+
+## Documentação
+Existem diversos comentários (em inglês) no projeto para facil entendimento das funções, por conta disso, não utilize essa versão para produção.
+
+##ToDo list
+- [ ] Adicionar a funcionalidade de upload de arquivo
+- [ ] Adicionar Drag and Drop para upload de arquivo
+- [ ] Adicionar a funcionalidade de download de arquivo
+- [ ] Melhorar a interface
