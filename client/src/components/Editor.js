@@ -173,7 +173,7 @@ function TextEditor({ history, location }) {
                 })
                 .catch((e) => console.error(e));
         }
-        // eslint-disable-exhaustive-deps
+        // eslint-disable-next-line
     }, []);
 
     if (location.state && location.state.newDoc && !newDoc) {
