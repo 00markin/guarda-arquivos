@@ -1,0 +1,14 @@
+
+.main-nav {
+    background-color: #56AF31;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav > a {
+    text-decoration: none;
+    margin: 1em 0 1em 1em;
+    margin-right: 2em;
+}
+
